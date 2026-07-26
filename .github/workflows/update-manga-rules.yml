@@ -1,0 +1,66 @@
+name: Update manga rule providers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"
+
+concurrency:
+  group: update-manga-rule-providers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out rule repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          enable-cache: true
+          python-version: "3.11"
+
+      - name: Check out Kotatsu parser sources
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Kotatsu-Redo/kotatsu-parsers-redo
+          path: upstream
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Download Mihomo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p .tools
+          gh release download \
+            --repo MetaCubeX/mihomo \
+            --pattern 'mihomo-linux-amd64-compatible-*.gz' \
+            --dir .tools
+          gunzip -c .tools/mihomo-linux-amd64-compatible-*.gz > .tools/mihomo
+          chmod +x .tools/mihomo
+
+      - name: Generate YAML and MRS rule providers
+        run: |
+          uv run ./generate_manga_yaml.py \
+            --source-root "$GITHUB_WORKSPACE/upstream" \
+            --mihomo "$GITHUB_WORKSPACE/.tools/mihomo"
+
+      - name: Commit and push changed rule providers
+        run: |
+          if git diff --quiet -- manga.yaml manga.mrs; then
+            echo "Manga rule providers are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manga.yaml manga.mrs
+          git commit -m "chore: update manga Mihomo rule providers"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"

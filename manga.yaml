@@ -62,8 +62,8 @@ payload:
 - +.api.schale.network
 - +.api.senkuro.me
 - +.api.shngm.io
-- +.api.skkyscan.fun
 - +.api.th18.app
+- +.api.voratoon.com
 - +.apollcomics.es
 - +.appswat.com
 - +.aquareader.org
@@ -112,7 +112,6 @@ payload:
 - +.baozimh.com
 - +.barmanga.com
 - +.batcave.biz
-- +.be.komikcast.cc
 - +.beehentai.com
 - +.begatranslation.com
 - +.beinmanga.com
@@ -409,6 +408,7 @@ payload:
 - +.image3.shopotaku.net
 - +.imagepi.otakuscan.net
 - +.img.softdevices.my.id
+- +.img.soulscans.org
 - +.imgx.mghcdn.com
 - +.imhentai.xxx
 - +.immortalupdates.com
@@ -540,10 +540,10 @@ payload:
 - +.luascans.com
 - +.luffymanga.com
 - +.lugnica-scans.com
-- +.lunaranime.ru
 - +.lunarrscan.com
 - +.lunarscan.org
 - +.lunarscans.fr
+- +.lunarx.to
 - +.lupiteam.net
 - +.luratoons.net
 - +.luxmanga.net
@@ -1031,7 +1031,7 @@ payload:
 - +.revolutionscantrad.com
 - +.rezoscans.com
 - +.rh2plusmanga.com
-- +.rimuscans.com
+- +.rimuscan.fr
 - +.rinkocomics.com
 - +.rizzfables.com
 - +.rocksmanga.com
@@ -1114,7 +1114,6 @@ payload:
 - +.softkomik.co
 - +.solarmtl.com
 - +.solooscan.blogspot.com
-- +.soulscans.my.id
 - +.spiderscans.xyz
 - +.sso.inuko.me
 - +.ssreading.com.br
@@ -1211,7 +1210,8 @@ payload:
 - +.v1.ainzscans01.com
 - +.v1.hentailib.org
 - +.v1.holotoon.site
-- +.v1.komikcast.fit
+- +.v1.soulscans.org
+- +.v1.voratoon.com
 - +.v1.westmanga.cc
 - +.v2.comiz.net
 - +.v2.slashlib.me

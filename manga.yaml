@@ -32,7 +32,6 @@ payload:
 - +.aiyumanhua.com
 - +.alceacomic.my.id
 - +.alliedfansub.net
-- +.allmanga.to
 - +.allporncomic.com
 - +.alonescanlator.com.br
 - +.altayscans.com
@@ -52,13 +51,15 @@ payload:
 - +.anzmangashd.com
 - +.apenasmaisumyaoi.com
 - +.api.ainzscans01.com
-- +.api.allanime.day
 - +.api.cdnlibs.org
+- +.api.comicaso.pro
 - +.api.comick.dev
 - +.api.imperiodabritannia.net
 - +.api.mediocretoons.site
 - +.api.mghcdn.com
+- +.api.mkissa.net
 - +.api.modescanlator.net
+- +.api.ryukomik.web.id
 - +.api.schale.network
 - +.api.senkuro.me
 - +.api.shngm.io
@@ -157,6 +158,7 @@ payload:
 - +.chainsawman-scan.com
 - +.chap.mangairo.com
 - +.chapmanganelo.com
+- +.chikari.moe
 - +.clubinari.org
 - +.cmangax6.com
 - +.cocomic.co
@@ -167,7 +169,6 @@ payload:
 - +.comic1000.com
 - +.comic21.me
 - +.comicarab.com
-- +.comicazen.com
 - +.comick.art
 - +.comick.live
 - +.comicpark.org
@@ -175,7 +176,6 @@ payload:
 - +.comicsvalley.com
 - +.comikuro.to
 - +.comix.to
-- +.comx.life
 - +.constellarcomic.com
 - +.copypastescan.xyz
 - +.cosmic-scans.com
@@ -187,8 +187,6 @@ payload:
 - +.cubari.moe
 - +.culturedworks.com
 - +.culturesubs.com
-- +.cuutruyen.net
-- +.cuutruyen5c844.site
 - +.cypheroscans.xyz
 - +.damconuong.co
 - +.dandadan.fr
@@ -379,7 +377,6 @@ payload:
 - +.hentalk.pw
 - +.hentaman.net
 - +.herenscan.com
-- +.hetcuutruyen.net
 - +.heytoon.net
 - +.hhentai.fr
 - +.hijala.com
@@ -419,7 +416,7 @@ payload:
 - +.infamous-scans.com
 - +.infrafandub.com
 - +.inkreads.com
-- +.inkstory.me
+- +.inkstory.net
 - +.inmanga.com
 - +.inmoralnofansub.xyz
 - +.inovascanmanga.com
@@ -743,6 +740,7 @@ payload:
 - +.mangawt.com
 - +.mangaxyz.com
 - +.mangayaro.id
+- +.mangayy.org
 - +.mangazavr.ru
 - +.mangazin.org
 - +.mangazodiac.com
@@ -840,6 +838,7 @@ payload:
 - +.mintmanga.com
 - +.mintmanga.live
 - +.misskon.com
+- +.mkissa.to
 - +.mm-scans.org
 - +.mmdaos.com
 - +.momonohanascan.com
@@ -870,7 +869,6 @@ payload:
 - +.nekoscans.org
 - +.nelomanga.com
 - +.neroxus.com.br
-- +.nettrom.com
 - +.nettruyen1905.com
 - +.nettruyenar.com
 - +.nettruyenhe.com
@@ -924,6 +922,7 @@ payload:
 - +.onepieceex.net
 - +.onepiecescan.fr
 - +.onepunchmanscan.com
+- +.onisaga.com
 - +.onlymanhwa.org
 - +.onma.me
 - +.opiatoon.art
@@ -997,7 +996,7 @@ payload:
 - +.rainbowfairyscan.com
 - +.raindropteamfan.com
 - +.ramareader.it
-- +.ravenscans.net
+- +.ravenscans.org
 - +.raw1001.net
 - +.rawdex.net
 - +.rawkuma.net
@@ -1041,6 +1040,7 @@ payload:
 - +.rsdleft.com
 - +.ruahapchanhday.com
 - +.ruyamanga.net
+- +.ryukomik.my.id
 - +.ryzukomik.my.id
 - +.s15.weebdex.net
 - +.s2manga.io
@@ -1115,7 +1115,6 @@ payload:
 - +.solarmtl.com
 - +.solooscan.blogspot.com
 - +.spiderscans.xyz
-- +.sso.inuko.me
 - +.ssreading.com.br
 - +.starboundscans.com
 - +.stellarsaber.pro
@@ -1186,7 +1185,6 @@ payload:
 - +.trisalyanp.com
 - +.tritinia.org
 - +.trmangaoku.com
-- +.truycapcuutruyen.pages.dev
 - +.truyenhentai18.app
 - +.truyenhentaivn.club
 - +.truyenqqgo.com
@@ -1207,6 +1205,7 @@ payload:
 - +.universohentai.com
 - +.utoon.net
 - +.uzaymangacdn3.efsaneler.can.re
+- +.v.recipes
 - +.v1.ainzscans01.com
 - +.v1.hentailib.org
 - +.v1.holotoon.site
@@ -1216,6 +1215,7 @@ payload:
 - +.v2.comiz.net
 - +.v2.slashlib.me
 - +.v2.softdevices.my.id
+- +.v3.comicaso.pro
 - +.v4.luvyaa.co
 - +.v6.kiryuu.to
 - +.valkyriescan.com
